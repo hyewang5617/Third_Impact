@@ -4,7 +4,9 @@
 HW3에서 구한 카메라 캘리브레이션 결과를 재사용하여 체커보드의 자세를 추정하고, 그 위에 2D 캐릭터 PNG/GIF를 AR 형태로 시각화했습니다.
 
 ## 유튜브영상
-[Watch Demo](https://youtu.be/cdSFtEpmWYY)
+## Demo
+
+[![Demo](https://img.youtube.com/vi/cdSFtEpmWYY/0.jpg)](https://youtu.be/cdSFtEpmWYY)
 
 ## 프로젝트 목표
 
