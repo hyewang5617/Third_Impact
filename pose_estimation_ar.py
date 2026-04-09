@@ -9,6 +9,7 @@ CHECKERBOARD = (7, 5)
 SQUARE_SIZE = 1.0
 INPUT_VIDEO = "chessboard.mp4"
 OUTPUT_VIDEO = "pose_estimation_result.mp4"
+PANEL_WIDTH_RATIO = 0.8 #사이즈 크기 
 ASSET_CANDIDATES = [
     Path("assets/character.gif"),
     Path("assets/character.png"),
@@ -97,10 +98,10 @@ def get_billboard_points(pattern_size, square_size, image_shape):
     img_h, img_w = image_shape[:2]
     aspect_ratio = img_h / img_w
 
-    panel_width = board_width * 0.55
+    panel_width = board_width * PANEL_WIDTH_RATIO
     panel_height = panel_width * aspect_ratio
 
-    x0 = board_width * 0.2
+    x0 = (board_width - panel_width) * 0.5
     x1 = x0 + panel_width
     y_ground = board_height * 0.95
     z_top = -panel_height
