@@ -1,4 +1,4 @@
-# Holding-hands-with-2D
+# Third_Impact
 
 컴퓨터비전 HW4 `Camera Pose Estimation and AR` 과제를 위한 프로젝트입니다.  
 HW3에서 구한 카메라 캘리브레이션 결과를 재사용하여 체커보드의 자세를 추정하고, 그 위에 2D 캐릭터 PNG/GIF를 AR 형태로 시각화했습니다.
@@ -110,5 +110,5 @@ python distortion_correction.py
 
 ## 정리
 
-이번 과제에서는 HW3의 카메라 캘리브레이션 결과를 바탕으로, 체커보드 pose estimation과 2D 캐릭터 AR 시각화를 구현했다.  
+이번 과제에서는 HW3의 카메라 캘리브레이션 결과를 바탕으로, 체커보드 pose estimation과 애니 장면 AR 시각화를 구현했다.  
 기본적인 큐브 대신 원하는 캐릭터 PNG/GIF를 사용할 수 있도록 확장하여, 더 직관적이고 재미있는 AR 결과를 만들 수 있었다.
